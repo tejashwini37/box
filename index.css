@@ -1,0 +1,64 @@
+/* Write your code here. */
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.yellow {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+}
+.blue {
+  background-color: #38bdf8;
+  height: 120px;
+  width: 120px;
+  align-items: center;
+}
+.pink {
+  background-color: #ec4899;
+  height: 200px;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .yellow {
+    align-self: flex-end;
+  }
+  .blue {
+    align-self: flex-end;
+  }
+}
